@@ -14,6 +14,9 @@ import com.demo.nestedrecyclerview.models.App
 import com.demo.nestedrecyclerview.models.Section
 import java.util.*
 
+/**
+ *  Create by ThanhPQ
+ */
 class SectionAdapter(context: Context, dataList: ArrayList<Section>) :
     RecyclerView.Adapter<SectionAdapter.ItemRowHolder>() {
     private val dataList: ArrayList<Section> = dataList

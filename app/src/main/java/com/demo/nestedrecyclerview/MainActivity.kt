@@ -8,6 +8,9 @@ import com.demo.nestedrecyclerview.adapters.SectionAdapter
 import com.demo.nestedrecyclerview.models.App
 import com.demo.nestedrecyclerview.models.Section
 
+/**
+ *  Create by ThanhPQ
+ */
 class MainActivity : AppCompatActivity() {
     var allSampleData: ArrayList<Section> = ArrayList()
     lateinit var sectionRecyclerView: RecyclerView
@@ -21,8 +24,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun showData() {
         val sectionAdapter = SectionAdapter(this, allSampleData)
-        
         sectionRecyclerView = findViewById(R.id.my_recycler_view)
+
         sectionRecyclerView.apply {
             setHasFixedSize(true)
             layoutManager =

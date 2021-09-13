@@ -2,7 +2,9 @@
 Here is a demo using 2 nested recyclerviews simulating CH play
 
 Here i add a demo on how to use databinding in viewholders you can follow in AppAdapter.kt
+
 > private var binding: ItemAppBinding = ItemAppBinding.bind(view)
+
 > binding.apply {
 >      app = appData
 >      executePendingBindings()
